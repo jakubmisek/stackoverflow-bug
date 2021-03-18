@@ -23,7 +23,7 @@ namespace ConsoleApp1
             return key;
         }
 
-        public bool Equals([AllowNull] intstrkey other)
+        public bool Equals(intstrkey other)
         {
             return other.key == key;
         }
